@@ -11,6 +11,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		        /* Default styles for larger screens like PC */
+		        .responsive-img {
+		            width: 30%; /* 30% of the screen size on desktop */
+		        }
+		
+		        /* Styles for screens that are 600px wide or less (like mobile devices) */
+		        @media screen and (max-width: 600px) {
+		            .responsive-img {
+		                width: 60%; /* 50% of the screen size on mobile */
+		            }
+		        }
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -45,7 +58,7 @@
 						<div class="inner">
 							<h1>About Me</h1>
 							<div style="text-align: center;">
-								<img src="images/me.jpg" alt="" style="width: 40%;" />
+								<img src="images/me.jpg" alt="" class="responsive-img" />
 								<p></p>								
 							</div>
 							<p>I am a third-year student at The University of Texas at Austin, double-majoring in in BS Neuroscience and BA Government, with minors in Computer Science, Computational Engineering, Scientific Computation, Applied Statistical Modeling, Philosophy of Law, and Social Sciences. I'm passionate about understanding humanities and sciences through an interdisciplinary approach.</p>
