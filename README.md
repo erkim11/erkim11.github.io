@@ -1,3 +1,3 @@
 # erkim11.github.io
 
-Personal portfolio website showcasing previous research projects.
+personal portfolio website showcasing previous research projects
